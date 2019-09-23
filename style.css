@@ -1,0 +1,25 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    max-width: 80%;
+    margin: 0 auto;
+
+}
+
+.div1{
+    margin: 2em auto;
+    padding: 1em;
+    width: 70%;
+}
+
+.div2{
+    position: relative;
+    bottom: 6em;
+    background-color: green;
+    color: white;
+    padding: 1em;
+}
