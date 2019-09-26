@@ -1,25 +1,81 @@
-body{
+body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-section{
+section {
     max-width: 80%;
     margin: 0 auto;
-
 }
 
-.div1{
+.div1 {
     margin: 2em auto;
     padding: 1em;
     width: 70%;
 }
 
-.div2{
+.div2 {
     position: relative;
     bottom: 6em;
     background-color: green;
     color: white;
     padding: 1em;
+}
+
+.div4 {
+    background-image: url(./image/20170804_133337_image.jpg);
+    background-repeat: no-repeat;
+}
+
+
+/* .div4{
+    position: relative;
+    bottom: 0;
+} */
+
+.divimg img {
+    opacity: 0.4;
+}
+
+.input_div {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+input[type=submit] {
+    outline: none;
+    padding: 0.8em;
+    max-width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 0.2em;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    background-color: aqua;
+    color: white;
+}
+
+.form_div {
+    max-width: 80%;
+    margin: auto;
+}
+
+.form_div h3 {
+    margin-left: 1em;
+}
+
+input[type=submit] {
+    border: none;
+    max-width: 73%;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    font-weight: bold;
+    text-transform: capitalize;
 }
